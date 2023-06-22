@@ -101,7 +101,7 @@ AS
 	 
 	 
 	CREATE TABLE Audio (
-	  AudioID   int NOT NULL, 
+	  AudioID   int IDENTITY NOT NULL, 
 	  DataID    int NOT NULL, 
 	  AudioFile image NOT NULL, 
 	  PRIMARY KEY (AudioID, 
@@ -109,7 +109,7 @@ AS
 	 
 	 
 	CREATE TABLE [3DImagery] (
-	  ImageryID      int NOT NULL, 
+	  ImageryID      int IDENTITY NOT NULL, 
 	  DataID         int NOT NULL, 
 	  SkeletalPoints image NULL, 
 	  BodyShape      image NULL, 
@@ -207,7 +207,7 @@ AS
 	 
 	 
 	CREATE TABLE Video (
-	  VideoID   int NOT NULL, 
+	  VideoID   int IDENTITY NOT NULL, 
 	  DataID    int NOT NULL, 
 	  VideoFile image NOT NULL, 
 	  PRIMARY KEY (VideoID, 
