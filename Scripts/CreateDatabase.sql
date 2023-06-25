@@ -63,7 +63,7 @@ AS
 	  SensorID  int NOT NULL, 
 	  [Date]    datetime NOT NULL, 
 	  Longitude decimal(9, 6) NOT NULL, 
-	  Lattitude decimal(8, 6) NOT NULL, 
+	  Latitude decimal(8, 6) NOT NULL, 
 	  Altitude  decimal(11, 1) NOT NULL, 
 	  PRIMARY KEY (SensorID, 
 	  [Date]));
